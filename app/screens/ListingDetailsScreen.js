@@ -16,8 +16,8 @@ const ListingDetailScreen = () => {
                     $100
             </AppText>
                 <View style={styles.userContainer}>
+                    <ListItem image={require("../assets/shahid.png")} title="Shahid Dhariwala" subtitle="5 Listings" />
                 </View>
-                <ListItem image={require("../assets/shahid.png")} title="Shahid Dhariwala" subtitle="5 Listings" />
             </View>
         </View>
     );
@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
         fontWeight: "900",
     },
     userContainer: {
-        marginVertical: 20,
+        marginVertical: 40,
     }
 })
 export default ListingDetailScreen;
