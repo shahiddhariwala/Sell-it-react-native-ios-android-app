@@ -3,11 +3,14 @@ import React from 'react';
 import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
 import WelcomeScreen from "./app/screens/WelcomeScreen";
 import ViewImageScreen from "./app/screens/ViewImageScreen";
+import Card from "./app/components/Card";
 export default function App() {
   console.log("My App Is Running");
   return (
-    <WelcomeScreen />
+
+    // <WelcomeScreen />
     // <ViewImageScreen />
+    <Card title="Red jacket for sale!" subTitle="$100" image={require("./app/assets/jacket.jpg")} />
   );
 }
 

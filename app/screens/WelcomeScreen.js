@@ -7,11 +7,11 @@ const WelcomeScreen = (props) => {
         <ImageBackground
             source={require("../assets/background.jpg")}
             style={styles.background}
-            blurRadius={1}
+            blurRadius={10}
         >
             <View style={styles.logoContainer}>
                 <Image source={require("../assets/logo-red.png")} style={styles.logo} />
-                <Text>Sell What you Don't Need</Text>
+                <Text style={styles.tagline}>Sell what you don't need</Text>
             </View>
             <View style={styles.buttonContainer}>
                 <AppButton title="Login" onPress={()=> console.log("Login Clicked")}/>
@@ -42,5 +42,10 @@ const styles = StyleSheet.create({
         top: 70,
         alignItems: "center"
     },
+    tagline:{
+        fontSize: 25,
+        fontWeight: "bold",
+        marginVertical: 10,
+    }
 })
 export default WelcomeScreen;
