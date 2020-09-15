@@ -6,8 +6,8 @@ import ViewImageScreen from "./app/screens/ViewImageScreen";
 export default function App() {
   console.log("My App Is Running");
   return (
-    // <WelcomeScreen />
-    <ViewImageScreen />
+    <WelcomeScreen />
+    // <ViewImageScreen />
   );
 }
 
