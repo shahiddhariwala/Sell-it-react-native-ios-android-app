@@ -5,4 +5,5 @@ export default {
     text: "#fff",
     white: "#fff",
     medium: "#6e6969",
+    light: "#f8f4f4",
 }
