@@ -7,6 +7,8 @@ import WelcomeScreen from "./app/screens/WelcomeScreen";
 import ViewImageScreen from "./app/screens/ViewImageScreen";
 import ListingDetailsScreen from "./app/screens/ListingDetailsScreen";
 import MessagesScreen from "./app/screens/MessagesScreen";
+import AccountScreen from "./app/screens/AccountScreen";
+
 //Components
 import Card from "./app/components/Card";
 
@@ -18,7 +20,8 @@ export default function App() {
     // <ViewImageScreen />
     // <Card title="Red jacket for sale!" subTitle="$100" image={require("./app/assets/jacket.jpg")} />
     // <ListingDetailsScreen />
-    <MessagesScreen />
+    // <MessagesScreen />
+    <AccountScreen />
   );
 }
 
